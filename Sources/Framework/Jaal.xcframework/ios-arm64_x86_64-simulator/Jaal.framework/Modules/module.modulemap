@@ -1,0 +1,6 @@
+framework module Jaal {
+  umbrella header "Jaal.h"
+  export *
+
+  module * { export * }
+}
