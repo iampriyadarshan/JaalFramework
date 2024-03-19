@@ -1,0 +1,1445 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Jaal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TargetType",
+        "printedName": "TargetType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "baseURL",
+            "printedName": "baseURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4Jaal10TargetTypeP7baseURL10Foundation0E0Vvp",
+            "mangledName": "$s4Jaal10TargetTypeP7baseURL10Foundation0E0Vvp",
+            "moduleName": "Jaal",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Jaal10TargetTypeP7baseURL10Foundation0E0Vvg",
+                "mangledName": "$s4Jaal10TargetTypeP7baseURL10Foundation0E0Vvg",
+                "moduleName": "Jaal",
+                "genericSig": "<τ_0_0 where τ_0_0 : Jaal.TargetType>",
+                "sugared_genericSig": "<Self where Self : Jaal.TargetType>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "path",
+            "printedName": "path",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4Jaal10TargetTypeP4pathSSvp",
+            "mangledName": "$s4Jaal10TargetTypeP4pathSSvp",
+            "moduleName": "Jaal",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Jaal10TargetTypeP4pathSSvg",
+                "mangledName": "$s4Jaal10TargetTypeP4pathSSvg",
+                "moduleName": "Jaal",
+                "genericSig": "<τ_0_0 where τ_0_0 : Jaal.TargetType>",
+                "sugared_genericSig": "<Self where Self : Jaal.TargetType>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "method",
+            "printedName": "method",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethod",
+                "printedName": "Jaal.HTTPMethod",
+                "usr": "s:4Jaal10HTTPMethodO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4Jaal10TargetTypeP6methodAA10HTTPMethodOvp",
+            "mangledName": "$s4Jaal10TargetTypeP6methodAA10HTTPMethodOvp",
+            "moduleName": "Jaal",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "Jaal.HTTPMethod",
+                    "usr": "s:4Jaal10HTTPMethodO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Jaal10TargetTypeP6methodAA10HTTPMethodOvg",
+                "mangledName": "$s4Jaal10TargetTypeP6methodAA10HTTPMethodOvg",
+                "moduleName": "Jaal",
+                "genericSig": "<τ_0_0 where τ_0_0 : Jaal.TargetType>",
+                "sugared_genericSig": "<Self where Self : Jaal.TargetType>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "task",
+            "printedName": "task",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPTaskType",
+                "printedName": "Jaal.HTTPTaskType",
+                "usr": "s:4Jaal12HTTPTaskTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4Jaal10TargetTypeP4taskAA08HTTPTaskC0Ovp",
+            "mangledName": "$s4Jaal10TargetTypeP4taskAA08HTTPTaskC0Ovp",
+            "moduleName": "Jaal",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPTaskType",
+                    "printedName": "Jaal.HTTPTaskType",
+                    "usr": "s:4Jaal12HTTPTaskTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Jaal10TargetTypeP4taskAA08HTTPTaskC0Ovg",
+                "mangledName": "$s4Jaal10TargetTypeP4taskAA08HTTPTaskC0Ovg",
+                "moduleName": "Jaal",
+                "genericSig": "<τ_0_0 where τ_0_0 : Jaal.TargetType>",
+                "sugared_genericSig": "<Self where Self : Jaal.TargetType>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headers",
+            "printedName": "headers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4Jaal10TargetTypeP7headersSDyS2SGSgvp",
+            "mangledName": "$s4Jaal10TargetTypeP7headersSDyS2SGSgvp",
+            "moduleName": "Jaal",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Jaal10TargetTypeP7headersSDyS2SGSgvg",
+                "mangledName": "$s4Jaal10TargetTypeP7headersSDyS2SGSgvg",
+                "moduleName": "Jaal",
+                "genericSig": "<τ_0_0 where τ_0_0 : Jaal.TargetType>",
+                "sugared_genericSig": "<Self where Self : Jaal.TargetType>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:4Jaal10TargetTypeP",
+        "mangledName": "$s4Jaal10TargetTypeP",
+        "moduleName": "Jaal",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Jaal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Jaal"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APIClient",
+        "printedName": "APIClient",
+        "children": [
+          {
+            "kind": "AssociatedType",
+            "name": "Target",
+            "printedName": "Target",
+            "declKind": "AssociatedType",
+            "usr": "s:4Jaal9APIClientP6TargetQa",
+            "mangledName": "$s4Jaal9APIClientP6TargetQa",
+            "moduleName": "Jaal",
+            "protocolReq": true
+          },
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(target:urlSession:jsonDecoder:scheduler:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<τ_1_0, Jaal.JaalError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JaalError",
+                    "printedName": "Jaal.JaalError",
+                    "usr": "s:4Jaal0A5ErrorO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.Target"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JSONDecoder",
+                "printedName": "Foundation.JSONDecoder",
+                "usr": "s:10Foundation11JSONDecoderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_1"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4Jaal9APIClientP7request6target10urlSession11jsonDecoder9scheduler4type7Combine12AnyPublisherVyqd__AA0A5ErrorOG6TargetQz_So12NSURLSessionC10Foundation11JSONDecoderCqd_0_qd__mtSeRd__AJ9SchedulerRd_0_r0_lF",
+            "mangledName": "$s4Jaal9APIClientP7request6target10urlSession11jsonDecoder9scheduler4type7Combine12AnyPublisherVyqd__AA0A5ErrorOG6TargetQz_So12NSURLSessionC10Foundation11JSONDecoderCqd_0_qd__mtSeRd__AJ9SchedulerRd_0_r0_lF",
+            "moduleName": "Jaal",
+            "genericSig": "<τ_0_0, τ_1_0, τ_1_1 where τ_0_0 : Jaal.APIClient, τ_1_0 : Swift.Decodable, τ_1_1 : Combine.Scheduler>",
+            "sugared_genericSig": "<Self, D, S where Self : Jaal.APIClient, D : Swift.Decodable, S : Combine.Scheduler>",
+            "protocolReq": true,
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:4Jaal9APIClientP",
+        "mangledName": "$s4Jaal9APIClientP",
+        "moduleName": "Jaal",
+        "genericSig": "<τ_0_0.Target : Jaal.TargetType>",
+        "sugared_genericSig": "<Self.Target : Jaal.TargetType>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JaalProvider",
+        "printedName": "JaalProvider",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JaalProvider",
+                "printedName": "Jaal.JaalProvider<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:4Jaal0A8ProviderC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4Jaal0A8ProviderCACyxGycfc",
+            "mangledName": "$s4Jaal0A8ProviderCACyxGycfc",
+            "moduleName": "Jaal",
+            "genericSig": "<τ_0_0 where τ_0_0 : Jaal.TargetType>",
+            "sugared_genericSig": "<Target where Target : Jaal.TargetType>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(target:urlSession:jsonDecoder:scheduler:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<τ_1_0, Jaal.JaalError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JaalError",
+                    "printedName": "Jaal.JaalError",
+                    "usr": "s:4Jaal0A5ErrorO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)NSURLSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JSONDecoder",
+                "printedName": "Foundation.JSONDecoder",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation11JSONDecoderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_1"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4Jaal0A8ProviderC7request6target10urlSession11jsonDecoder9scheduler4type7Combine12AnyPublisherVyqd__AA0A5ErrorOGx_So12NSURLSessionC10Foundation11JSONDecoderCqd_0_qd__mtSeRd__AJ9SchedulerRd_0_r0_lF",
+            "mangledName": "$s4Jaal0A8ProviderC7request6target10urlSession11jsonDecoder9scheduler4type7Combine12AnyPublisherVyqd__AA0A5ErrorOGx_So12NSURLSessionC10Foundation11JSONDecoderCqd_0_qd__mtSeRd__AJ9SchedulerRd_0_r0_lF",
+            "moduleName": "Jaal",
+            "genericSig": "<τ_0_0, τ_1_0, τ_1_1 where τ_0_0 : Jaal.TargetType, τ_1_0 : Swift.Decodable, τ_1_1 : Combine.Scheduler>",
+            "sugared_genericSig": "<Target, D, S where Target : Jaal.TargetType, D : Swift.Decodable, S : Combine.Scheduler>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "constructRequest",
+            "printedName": "constructRequest(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TargetType",
+                "printedName": "Jaal.TargetType",
+                "usr": "s:4Jaal10TargetTypeP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4Jaal0A8ProviderC16constructRequest4with10Foundation10URLRequestVAA10TargetType_p_tF",
+            "mangledName": "$s4Jaal0A8ProviderC16constructRequest4with10Foundation10URLRequestVAA10TargetType_p_tF",
+            "moduleName": "Jaal",
+            "genericSig": "<τ_0_0 where τ_0_0 : Jaal.TargetType>",
+            "sugared_genericSig": "<Target where Target : Jaal.TargetType>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "prepareGetRequest",
+            "printedName": "prepareGetRequest(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TargetType",
+                "printedName": "Jaal.TargetType",
+                "usr": "s:4Jaal10TargetTypeP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4Jaal0A8ProviderC17prepareGetRequest4with10Foundation10URLRequestVAA10TargetType_p_tF",
+            "mangledName": "$s4Jaal0A8ProviderC17prepareGetRequest4with10Foundation10URLRequestVAA10TargetType_p_tF",
+            "moduleName": "Jaal",
+            "genericSig": "<τ_0_0 where τ_0_0 : Jaal.TargetType>",
+            "sugared_genericSig": "<Target where Target : Jaal.TargetType>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "prepareGeneralRequest",
+            "printedName": "prepareGeneralRequest(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TargetType",
+                "printedName": "Jaal.TargetType",
+                "usr": "s:4Jaal10TargetTypeP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4Jaal0A8ProviderC21prepareGeneralRequest4with10Foundation10URLRequestVAA10TargetType_p_tF",
+            "mangledName": "$s4Jaal0A8ProviderC21prepareGeneralRequest4with10Foundation10URLRequestVAA10TargetType_p_tF",
+            "moduleName": "Jaal",
+            "genericSig": "<τ_0_0 where τ_0_0 : Jaal.TargetType>",
+            "sugared_genericSig": "<Target where Target : Jaal.TargetType>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:4Jaal0A8ProviderC",
+        "mangledName": "$s4Jaal0A8ProviderC",
+        "moduleName": "Jaal",
+        "genericSig": "<τ_0_0 where τ_0_0 : Jaal.TargetType>",
+        "sugared_genericSig": "<Target where Target : Jaal.TargetType>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "APIClient",
+            "printedName": "APIClient",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Target",
+                "printedName": "Target",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:4Jaal9APIClientP",
+            "mangledName": "$s4Jaal9APIClientP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Jaal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JaalError",
+        "printedName": "JaalError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "notConnectedToInternet",
+            "printedName": "notConnectedToInternet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Jaal.JaalError.Type) -> (Swift.Error) -> Jaal.JaalError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> Jaal.JaalError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JaalError",
+                        "printedName": "Jaal.JaalError",
+                        "usr": "s:4Jaal0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Jaal.JaalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JaalError",
+                        "printedName": "Jaal.JaalError",
+                        "usr": "s:4Jaal0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:4Jaal0A5ErrorO22notConnectedToInternetyACs0B0_pcACmF",
+            "mangledName": "$s4Jaal0A5ErrorO22notConnectedToInternetyACs0B0_pcACmF",
+            "moduleName": "Jaal"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidResponse",
+            "printedName": "invalidResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Jaal.JaalError.Type) -> (Swift.Int) -> Jaal.JaalError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> Jaal.JaalError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JaalError",
+                        "printedName": "Jaal.JaalError",
+                        "usr": "s:4Jaal0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusCode: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Jaal.JaalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JaalError",
+                        "printedName": "Jaal.JaalError",
+                        "usr": "s:4Jaal0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:4Jaal0A5ErrorO15invalidResponseyACSi_tcACmF",
+            "mangledName": "$s4Jaal0A5ErrorO15invalidResponseyACSi_tcACmF",
+            "moduleName": "Jaal"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidData",
+            "printedName": "invalidData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Jaal.JaalError.Type) -> (Swift.Error) -> Jaal.JaalError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> Jaal.JaalError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JaalError",
+                        "printedName": "Jaal.JaalError",
+                        "usr": "s:4Jaal0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Jaal.JaalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JaalError",
+                        "printedName": "Jaal.JaalError",
+                        "usr": "s:4Jaal0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:4Jaal0A5ErrorO11invalidDatayACs0B0_pcACmF",
+            "mangledName": "$s4Jaal0A5ErrorO11invalidDatayACs0B0_pcACmF",
+            "moduleName": "Jaal"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidServerResponse",
+            "printedName": "invalidServerResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Jaal.JaalError.Type) -> Jaal.JaalError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JaalError",
+                    "printedName": "Jaal.JaalError",
+                    "usr": "s:4Jaal0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Jaal.JaalError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JaalError",
+                        "printedName": "Jaal.JaalError",
+                        "usr": "s:4Jaal0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:4Jaal0A5ErrorO21invalidServerResponseyA2CmF",
+            "mangledName": "$s4Jaal0A5ErrorO21invalidServerResponseyA2CmF",
+            "moduleName": "Jaal"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:4Jaal0A5ErrorO",
+        "mangledName": "$s4Jaal0A5ErrorO",
+        "moduleName": "Jaal",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Jaal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPTaskType",
+        "printedName": "HTTPTaskType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "requestPlain",
+            "printedName": "requestPlain",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Jaal.HTTPTaskType.Type) -> Jaal.HTTPTaskType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPTaskType",
+                    "printedName": "Jaal.HTTPTaskType",
+                    "usr": "s:4Jaal12HTTPTaskTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Jaal.HTTPTaskType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPTaskType",
+                        "printedName": "Jaal.HTTPTaskType",
+                        "usr": "s:4Jaal12HTTPTaskTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:4Jaal12HTTPTaskTypeO12requestPlainyA2CmF",
+            "mangledName": "$s4Jaal12HTTPTaskTypeO12requestPlainyA2CmF",
+            "moduleName": "Jaal"
+          },
+          {
+            "kind": "Var",
+            "name": "requestData",
+            "printedName": "requestData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Jaal.HTTPTaskType.Type) -> (Foundation.Data) -> Jaal.HTTPTaskType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.Data) -> Jaal.HTTPTaskType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPTaskType",
+                        "printedName": "Jaal.HTTPTaskType",
+                        "usr": "s:4Jaal12HTTPTaskTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(data: Foundation.Data)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Jaal.HTTPTaskType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPTaskType",
+                        "printedName": "Jaal.HTTPTaskType",
+                        "usr": "s:4Jaal12HTTPTaskTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:4Jaal12HTTPTaskTypeO11requestDatayAC10Foundation0E0V_tcACmF",
+            "mangledName": "$s4Jaal12HTTPTaskTypeO11requestDatayAC10Foundation0E0V_tcACmF",
+            "moduleName": "Jaal"
+          },
+          {
+            "kind": "Var",
+            "name": "requestParameters",
+            "printedName": "requestParameters",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Jaal.HTTPTaskType.Type) -> ([Swift.String : Any]) -> Jaal.HTTPTaskType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String : Any]) -> Jaal.HTTPTaskType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPTaskType",
+                        "printedName": "Jaal.HTTPTaskType",
+                        "usr": "s:4Jaal12HTTPTaskTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(parameters: [Swift.String : Any])",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Jaal.HTTPTaskType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPTaskType",
+                        "printedName": "Jaal.HTTPTaskType",
+                        "usr": "s:4Jaal12HTTPTaskTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:4Jaal12HTTPTaskTypeO17requestParametersyACSDySSypG_tcACmF",
+            "mangledName": "$s4Jaal12HTTPTaskTypeO17requestParametersyACSDySSypG_tcACmF",
+            "moduleName": "Jaal"
+          },
+          {
+            "kind": "Var",
+            "name": "requestWithEncodable",
+            "printedName": "requestWithEncodable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Jaal.HTTPTaskType.Type) -> (Swift.Encodable, Foundation.JSONEncoder) -> Jaal.HTTPTaskType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Encodable, Foundation.JSONEncoder) -> Jaal.HTTPTaskType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPTaskType",
+                        "printedName": "Jaal.HTTPTaskType",
+                        "usr": "s:4Jaal12HTTPTaskTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(encodable: Swift.Encodable, encoding: Foundation.JSONEncoder)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Encodable",
+                            "printedName": "Swift.Encodable",
+                            "usr": "s:SE"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "JSONEncoder",
+                            "printedName": "Foundation.JSONEncoder",
+                            "usr": "s:10Foundation11JSONEncoderC"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Jaal.HTTPTaskType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPTaskType",
+                        "printedName": "Jaal.HTTPTaskType",
+                        "usr": "s:4Jaal12HTTPTaskTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:4Jaal12HTTPTaskTypeO20requestWithEncodableyACSE_p_10Foundation11JSONEncoderCtcACmF",
+            "mangledName": "$s4Jaal12HTTPTaskTypeO20requestWithEncodableyACSE_p_10Foundation11JSONEncoderCtcACmF",
+            "moduleName": "Jaal"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:4Jaal12HTTPTaskTypeO",
+        "mangledName": "$s4Jaal12HTTPTaskTypeO",
+        "moduleName": "Jaal",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Jaal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPMethod",
+        "printedName": "HTTPMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "get",
+            "printedName": "get",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Jaal.HTTPMethod.Type) -> Jaal.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "Jaal.HTTPMethod",
+                    "usr": "s:4Jaal10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Jaal.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "Jaal.HTTPMethod",
+                        "usr": "s:4Jaal10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:4Jaal10HTTPMethodO3getyA2CmF",
+            "mangledName": "$s4Jaal10HTTPMethodO3getyA2CmF",
+            "moduleName": "Jaal"
+          },
+          {
+            "kind": "Var",
+            "name": "post",
+            "printedName": "post",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Jaal.HTTPMethod.Type) -> Jaal.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "Jaal.HTTPMethod",
+                    "usr": "s:4Jaal10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Jaal.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "Jaal.HTTPMethod",
+                        "usr": "s:4Jaal10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:4Jaal10HTTPMethodO4postyA2CmF",
+            "mangledName": "$s4Jaal10HTTPMethodO4postyA2CmF",
+            "moduleName": "Jaal"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4Jaal10HTTPMethodO8rawValueSSvp",
+            "mangledName": "$s4Jaal10HTTPMethodO8rawValueSSvp",
+            "moduleName": "Jaal",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4Jaal10HTTPMethodO8rawValueSSvg",
+                "mangledName": "$s4Jaal10HTTPMethodO8rawValueSSvg",
+                "moduleName": "Jaal",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Jaal.HTTPMethod?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "Jaal.HTTPMethod",
+                    "usr": "s:4Jaal10HTTPMethodO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:4Jaal10HTTPMethodO8rawValueACSgSS_tcfc",
+            "mangledName": "$s4Jaal10HTTPMethodO8rawValueACSgSS_tcfc",
+            "moduleName": "Jaal",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:4Jaal10HTTPMethodO",
+        "mangledName": "$s4Jaal10HTTPMethodO",
+        "moduleName": "Jaal",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/priyadarshan\/iOS Projects for Tests\/XCJaal\/Jaal\/Jaal\/JaalProvider.swift",
+      "kind": "Dictionary",
+      "offset": 1913,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/priyadarshan\/iOS Projects for Tests\/XCJaal\/Jaal\/Jaal\/JaalProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2300,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/priyadarshan\/iOS Projects for Tests\/XCJaal\/Jaal\/Jaal\/JaalProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2306,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/priyadarshan\/iOS Projects for Tests\/XCJaal\/Jaal\/Jaal\/JaalProvider.swift",
+      "kind": "Array",
+      "offset": 3987,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/priyadarshan\/iOS Projects for Tests\/XCJaal\/Jaal\/Jaal\/JaalProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4199,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/priyadarshan\/iOS Projects for Tests\/XCJaal\/Jaal\/Jaal\/JaalProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 4305,
+      "length": 20,
+      "value": "\"Wrong URL Provided\""
+    },
+    {
+      "filePath": "\/Users\/priyadarshan\/iOS Projects for Tests\/XCJaal\/Jaal\/Jaal\/JaalProvider.swift",
+      "kind": "Array",
+      "offset": 4549,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/priyadarshan\/iOS Projects for Tests\/XCJaal\/Jaal\/Jaal\/JaalProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 4622,
+      "length": 73,
+      "value": "\"Failed to convert data to dictionary. Data is not in valid JSON format.\""
+    },
+    {
+      "filePath": "\/Users\/priyadarshan\/iOS Projects for Tests\/XCJaal\/Jaal\/Jaal\/JaalProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 4742,
+      "length": 50,
+      "value": "\"Error deserializing data to dictionary: \""
+    },
+    {
+      "filePath": "\/Users\/priyadarshan\/iOS Projects for Tests\/XCJaal\/Jaal\/Jaal\/JaalProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 4791,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/priyadarshan\/iOS Projects for Tests\/XCJaal\/Jaal\/Jaal\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/priyadarshan\/iOS Projects for Tests\/XCJaal\/Jaal\/Jaal\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/priyadarshan\/iOS Projects for Tests\/XCJaal\/Jaal\/Jaal\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/priyadarshan\/iOS Projects for Tests\/XCJaal\/Jaal\/Jaal\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 6,
+      "value": "\"POST\""
+    }
+  ]
+}

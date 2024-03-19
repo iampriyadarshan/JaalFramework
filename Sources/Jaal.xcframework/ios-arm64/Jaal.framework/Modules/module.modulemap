@@ -4,3 +4,8 @@ framework module Jaal {
 
   module * { export * }
 }
+
+module Jaal.Swift {
+  header "Jaal-Swift.h"
+  requires objc
+}

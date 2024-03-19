@@ -4,33 +4,99 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/Jaal-Swift.h</key>
+		<data>
+		2+GA8qpTxvvK81rgkz/8oQG6cIY=
+		</data>
 		<key>Headers/Jaal.h</key>
 		<data>
-		SCjLkv7fYkS60MZcDw1yfQbdPVo=
+		PdpUhMUy8c7HSfPAyqxBl4/FzHY=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		lMqbA0yZeJ8iOYDBJbvFFca01wc=
 		</data>
+		<key>Modules/Jaal.swiftmodule/arm64-apple-ios.abi.json</key>
+		<data>
+		rf5knnEiD44PO1QW9vrcpNHBr84=
+		</data>
+		<key>Modules/Jaal.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<data>
+		Z/Dmg6Mqd73mDCIR3pbgEKK27lw=
+		</data>
+		<key>Modules/Jaal.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<data>
+		UqP44NEh+pifIQpusDoN34qIwGE=
+		</data>
+		<key>Modules/Jaal.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		Z/Dmg6Mqd73mDCIR3pbgEKK27lw=
+		</data>
+		<key>Modules/Jaal.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<data>
+		J8JqSbavPZAGkA20xet7aK2OMJg=
+		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		Z2Bp5WS6aD8Zf7mU+97fG/CBucE=
+		IaFty1bxUbIrINGumhx7gI+Kq1I=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/Jaal-Swift.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fZLkgNgooYLh7OQHx9ba6nK+hTERx92lQAeu9mi2QI4=
+			</data>
+		</dict>
 		<key>Headers/Jaal.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P7fFSQdtkdEf6Kw0Hm7jjXEOj2k66xN8h3o7naNVnjE=
+			l+ulSBdQklw8G85xFnZ7NCTYPd2w4TuhsQIPLEAfMJs=
+			</data>
+		</dict>
+		<key>Modules/Jaal.swiftmodule/arm64-apple-ios.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1PGAucvvgSP1KHnRm3pvxzLoHamP4Z/3fDMThYhMhP4=
+			</data>
+		</dict>
+		<key>Modules/Jaal.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sUqgqFSq4xJOabxdrxN5h6S/ruwky7DGvYP5pyTC1Nw=
+			</data>
+		</dict>
+		<key>Modules/Jaal.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DPRnXbItgNjJrJtwcfGRgJ9XPNuFZ4O3zYzMei7Bkew=
+			</data>
+		</dict>
+		<key>Modules/Jaal.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sUqgqFSq4xJOabxdrxN5h6S/ruwky7DGvYP5pyTC1Nw=
+			</data>
+		</dict>
+		<key>Modules/Jaal.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XjhREp8Z+/1WgWcnA4UO/A4yzu3ezYQkm99DvNJc2zs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fTp7U4wZcNvKFS51tWkKvDah6dB/t4rkF1cdRgqxENY=
+			HKYjceBQO8BekEUkZ6zo4go1Kk+KaVBFAt3y/o75iKY=
 			</data>
 		</dict>
 	</dict>
