@@ -4,19 +4,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "Jaal",
-    products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
-        .library(
-            name: "Jaal",
-            targets: ["Framework"]),
-    ],
-    targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-      .binaryTarget(name: "Framework", path: "Sources/Framework/Jaal.xcframework"),
-        .testTarget(
-            name: "JaalTests",
-            dependencies: ["Framework"]),
-    ]
+  name: "Jaal",
+  products: [
+    // Products define the executables and libraries a package produces, making them visible to other packages.
+    .library(
+      name: "Jaal",
+      targets: ["Jaal"]),
+  ],
+  targets: [
+    // Targets are the basic building blocks of a package, defining a module or a test suite.
+    // Targets can depend on other targets in this package and products from dependencies.
+    .binaryTarget(name: "Jaal", path: "Sources/Jaal.xcframework"),
+    .testTarget(
+      name: "JaalTests",
+      dependencies: ["Jaal"]),
+  ]
 )

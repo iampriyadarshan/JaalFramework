@@ -1,5 +1,5 @@
 import XCTest
-@testable import Jaal
+import Jaal
 
 final class JaalTests: XCTestCase {
     func testExample() throws {
